@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <article>
+      <div>
+        <header onClick="toggleItem(this)" class="active">
+          <h2>HTML nədir?</h2>
+          <span class="material-symbols-outlined">expand_more</span>
+        </header>
+        <div>
+          <p>
+            İngilis dilində açılışı "Hyper Text Markup Language" olan HTML,
+            Azərbaycan dilinə "Hipermətn İşarələmə Dili" kimi tərcümə edilən
+            mətn işarələmə dilidir.
+          </p>
+        </div>
+      </div>
+      <div>
+        <header onClick="toggleItem(this)">
+          <h2>CSS nədir?</h2>
+          <span class="material-symbols-outlined">expand_more</span>
+        </header>
+        <div>
+          <p>
+            Açılışı “Cascading Style Sheets” olan CSS, Azərbaycan dilində
+            “Kaskadlı Üslub Cədvəlləri” və ya “Kaskad Stil Layları” mənasını
+            verir. HTML və JavaScript ilə birlikdə ən əsas veb texnologiyaları
+            arasında olan CSS, internet səhifələrinin kodlaşdırılmasında
+            istifadə olunan 3 əsas texnologiyadan biridir.
+          </p>
+        </div>
+      </div>
+      <div>
+        <header onClick="toggleItem(this)">
+          <h2>JavaScript nədir?</h2>
+          <span class="material-symbols-outlined">expand_more</span>
+        </header>
+        <div>
+          <p>
+            JavaScript, veb tərtibatçılarının veb səhifələri, tətbiqləri,
+            serverləri və hətta oyunları inkişaf etdirərkən daha dinamik
+            qarşılıqlı əlaqə yaratmaq üçün istifadə etdiyi sinxron və
+            single-thread proqramlaşdırma (skript) dilidir.
+          </p>
+        </div>
+      </div>
+      <div>
+        <header onClick="toggleItem(this)">
+          <h2>ES6 nədir?</h2>
+          <span class="material-symbols-outlined">expand_more</span>
+        </header>
+        <div>
+          <p>
+            JavaScript ES6 (həmçinin ECMAScript 2015 və ya ECMAScript 6 kimi
+            tanınır) 2015-ci ildə təqdim edilmiş JavaScript-in daha yeni
+            versiyasıdır.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
